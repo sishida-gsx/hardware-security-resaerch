@@ -136,3 +136,16 @@ Script processing completed.
 
 ~/P/hardware-security-resaerch ❯❯❯
 ```
+
+For additional information about FRDM-k64f with J-Link, refer to [https://www.segger.com/evaluate-our-software/nxp/nxp-frdm-k64f/](https://www.segger.com/evaluate-our-software/nxp/nxp-frdm-k64f/)
+
+
+## Installing OpenOCD
+
+```
+brew install openocd
+```
+
+Detailed user's guide for OpenOCD is [https://openocd.org/doc/html/index.html](https://openocd.org/doc/html/index.html)
+
+
