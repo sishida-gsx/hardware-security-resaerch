@@ -74,6 +74,8 @@ J-Link>
 
 ### Connect to Cortex-M4
 
+![](images/frdm-k64f.jpg)
+
 ```
 ~/P/hardware-security-resaerch ❯❯❯ JLinkExe -device MK64FN1M0XXX12 -if SWD -speed 4000 -autoconnect 1 -CommanderScript download_flash.jlink
 SEGGER J-Link Commander V7.54 (Compiled Sep  1 2021 10:42:02)
