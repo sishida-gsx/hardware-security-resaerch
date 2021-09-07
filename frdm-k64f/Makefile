@@ -1,8 +1,4 @@
-#Fernando Luiz Cola
-#25/09/2015
-
 #Toolchain and Path Configuration
-#TOOLCHAIN=/opt/gcc-arm-none-eabi-4_9-2015q2/bin
 TOOLCHAIN=/usr/local/bin
 PREFIX=$(TOOLCHAIN)/arm-none-eabi-
 CC=$(PREFIX)gcc

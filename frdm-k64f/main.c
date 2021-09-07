@@ -5,8 +5,7 @@
 
 void delay(int time);
 
-int main(void)
-{
+int main(void) {
 	int i = 0;
 	led_blue_init();
 	led_blue_toogle();
@@ -20,8 +19,7 @@ int main(void)
     return 0;
 }
 
-void delay(int time)
-{
+void delay(int time) {
 	int i = 0;
 	for (i = time*1000 ; i !=0; i--) { }
 }
