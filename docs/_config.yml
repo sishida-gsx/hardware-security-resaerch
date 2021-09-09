@@ -30,12 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-<<<<<<< HEAD
-theme: minima
-=======
-markdown: kramdown
 theme: jekyll-theme-minimal
->>>>>>> 67a263ec883a9982cb6877273bdbcaf8368b22b5
 plugins:
   - jekyll-feed
 
