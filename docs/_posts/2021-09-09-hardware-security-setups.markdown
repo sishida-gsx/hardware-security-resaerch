@@ -81,7 +81,7 @@ J-Link>
 
 ### Connect to Cortex-M4
 
-![](/frdm-k64f.jpg)
+![]({{site.baseurl}}/images/frdm-k64f.jpg)
 
 {% highlight ruby %}
 ~/P/hardware-security-resaerch ❯❯❯ JLinkExe -device MK64FN1M0XXX12 -if SWD -speed 4000 -autoconnect 1 -CommanderScript download_flash.jlink
