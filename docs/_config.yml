@@ -25,7 +25,7 @@ github_username: sishida-gsx
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-midnight
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
