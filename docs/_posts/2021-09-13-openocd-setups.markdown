@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "OpenOCD"
 date: 2021-09-13 11:39:30 +0900
 categories: hardware security

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Hardware Security Setups"
 date: 2021-09-09 11:39:30 +0900
 categories: hardware security
