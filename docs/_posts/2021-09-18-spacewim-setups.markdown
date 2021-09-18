@@ -30,6 +30,6 @@ brew cask install font-hack-nerd-font
 
 Set the non-ascii fonts to be 
 
-![]({{site.baseurl}}/images/iterm2-fonts.png)
+![](iterm2-fonts.png)
 
 
