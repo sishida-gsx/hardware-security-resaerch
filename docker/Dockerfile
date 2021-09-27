@@ -5,9 +5,9 @@ ENV LC_CTYPE C.UTF-8
 # RUN dpkg --add-architecture i386
 
 RUN echo "apt updating..."
-RUN apt-get update
+RUN apt update
 RUN echo "apt installing..."
-RUN apt-get install -y cmake strace ltrace curl wget gcc net-tools vim gdb python python3 python3-pip wget git make procps libpcre3-dev libdb-dev libxt-dev libxaw7-dev python-pip rxvt-unicode-256color
+RUN apt install -y cmake strace ltrace curl wget gcc net-tools vim gdb python python3 python3-pip wget git make procps libpcre3-dev libdb-dev libxt-dev libffi-dev libxaw7-dev python-pip rxvt-unicode-256color libssl-dev
 
 # 32bit lib are pending
 # RUN apt-get install -y libc6:i386 libncurses5:i386 libstdc++6:i386 
