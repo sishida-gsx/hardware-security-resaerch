@@ -13,10 +13,18 @@ RUN apt install -y cmake strace ltrace curl wget gcc net-tools vim gdb python py
 # RUN apt-get install -y libc6:i386 libncurses5:i386 libstdc++6:i386 
 
 RUN echo "installing arm tools"
-RUN apt-get install -y gdb-multiarch gcc-arm-none-eabi
+RUN apt install -y gdb-multiarch gcc-arm-none-eabi
 
-RUN echo "installing gef..."
-RUN (wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh)
+RUN echo "installing avr development tools..."
+RUN apt install -y gcc-avr avrdude binutils-avr avr-libc
+
+# seems comflicts with peda-arm
+#RUN echo "installing gef..."
+#RUN (wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh)
+
+RUN echo "installing peda-arm"
+RUN (git clone https://github.com/alset0326/peda-arm.git ~/peda-arm)
+RUN (echo "source ~/peda-arm/peda-arm.py" >> ~/.gdbinit)
 
 RUN echo "pip install ..."
 RUN pip install capstone requests pwn r2pipe  && \
