@@ -25,7 +25,7 @@ Install fonts and icons by running the following commands.
 
 {% highlight ruby %}
 brew tap homebrew/cask-fonts
-brew cask install font-hack-nerd-font
+brew install font-hack-nerd-font
 {% endhighlight %}
 
 Set the non-ascii fonts to be 
