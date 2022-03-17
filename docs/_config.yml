@@ -16,7 +16,7 @@
 title: soichi security research laboratory 
 email: sishida@gsx.co.jp
 # description: >- # this means to ignore newlines until "baseurl:"
-baseurl: /security-resaerch.io
+baseurl: /security-research.io
 url: http://sishida-gsx.github.io
 github_username: sishida-gsx 
 
