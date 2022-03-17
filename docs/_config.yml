@@ -26,7 +26,7 @@ plugins:
   - jekyll-feed
   - github-pages
   - jekyll-seo-tag
-theme: minima 
+theme: jekyll-theme-hacker 
 defaults:
   - scope:
       path: ""
